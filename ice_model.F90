@@ -241,7 +241,7 @@ character(len=128) :: version = '$Id$'
 character(len=128) :: tagname = '$Name$'
 
 character(len=80) :: restart_format = 'amip ice model restart format 02'
-logical :: module_is_initialized = .false.
+logical :: module_is_initialized = .true.
 logical :: stock_warning_issued  = .false.
 
 
